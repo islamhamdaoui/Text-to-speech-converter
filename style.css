@@ -16,11 +16,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #07072c;
+    padding: 0 20px;
 }
 .container {
-    width: fit-content;
+    width: 100%;
     padding:0 25px ;
-    max-width: 100%;
+    max-width: fit-content;
     height: 600px;
     background : #1d1c3e;
     display: flex;
@@ -34,13 +35,15 @@ body {
 
 .container h1 {
     margin: -50px 0 50px;
-    font-size: 45px;
+    font-size: 2.1rem;
     font-weight: 500;
     color: #fff;
+
 }
 
 textarea {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
     height: 250px;
     background: #232249;
     color: #fff;
@@ -59,14 +62,17 @@ textarea::placeholder {
 }
 
 .bottom {
-    width: 600px;
+    
     display: flex;
     align-items: center;
     gap:20px;
+    max-width: 600px;
+    width: 100%;
 }
 
 button {
     background-color: #3a35e8;
+    
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -86,6 +92,7 @@ button img {
 
 select {
     flex: 1;
+    width: 100%;
     color: #fff;
     background-color: #232249;
     height: 50px;
